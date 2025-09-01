@@ -92,6 +92,12 @@ npx react-native run-ios
 - If Metro caching causes issues, restart with cache reset:
 
 ```bash
+yarn startc
+```
+
+#or else
+
+```bash
 npx react-native start --reset-cache
 ```
 
