@@ -11,8 +11,8 @@ This is an existing React Native project. Follow the steps below to set up the d
 
 ## 1) Clone the repository
 ```bash
-git clone <your-repo-url>
-cd CityPulse
+git clone https://github.com/atha-github/city-pulse.git
+cd city-pulse
 ```
 
 ## 2) Install JavaScript dependencies
@@ -29,9 +29,21 @@ npm install
 > Note: If you haven't set up the native environment (Xcode/Android SDK) follow the React Native docs above first.
 
 ## 3) iOS setup (macOS only)
+Install CocoaPods dependencies:
+
+```bash
+
+# project uses Bundler:
+yarn biob
+
+yarn bpod
+
+# or 
+
 Open the `ios` folder and install CocoaPods dependencies:
 
 ```bash
+
 cd ios
 # project uses Bundler:
 bundle install
@@ -62,11 +74,11 @@ npm start
 Then build & run:
 
 ```bash
-# Android emulator / device
+#To run on Android emulator / device
 # from project root
 yarn android
 
-# iOS simulator (macOS)
+#To run iOS simulator (macOS)
 yarn ios
 ```
 

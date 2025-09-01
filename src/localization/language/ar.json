@@ -1,0 +1,81 @@
+{
+    "auth": {
+        "title": "شاشة المقدمة",
+        "introText": "هذا هو نص المقدمة باللغة العربية",
+        "login": "تسجيل الدخول",
+        "signup": "إنشاء حساب",
+        "name": "الاسم",
+        "emailAddress": "عنوان البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "sendReset": "إرسال رابط إعادة التعيين",
+        "sending": "جارٍ الإرسال...",
+        "confirmPassword": "تأكيد كلمة المرور",
+        "continue": "متابعة",
+        "createAccount": "إنشاء حساب",
+        "forgotPassword": "هل نسيت كلمة المرور؟",
+        "alreadyHaveAccount": "هل لديك حساب بالفعل؟ تسجيل الدخول"
+    },
+    "event": {
+        "title": "الحدث",
+        "details": "تفاصيل الحدث",
+        "mapview": "عرض الخريطة",
+        "search": "بحث عن الأحداث"
+    },
+    "home": {
+        "title": "الرئيسية",
+        "searchHeading": "البحث عن فعاليات",
+        "keyword": { "label": "الكلمة المفتاحية", "placeholder": "الكلمة المفتاحية (مثال: فينيكس)" },
+        "city": { "label": "المدينة", "placeholder": "فينيكس" },
+        "searchButton": "بحث عن فعاليات",
+        "favoritesHeading": "الفعاليات المفضلة",
+        "clearAll": "مسح الكل",
+        "noFavorites": "لا توجد فعاليات مفضلة.",
+        "error": { "enterKeywordOrCity": "الرجاء إدخال كلمة مفتاحية أو مدينة للبحث", "enterKeywordRequired": "الرجاء إدخال كلمة مفتاحية للبحث", "clearFailed": "تعذر إزالة المفضلات" }
+    },
+    "common": {
+        "untitledEvent": "فعالية بدون عنوان",
+        "added": "أضيفت:",
+        "search": "بحث",
+        "loggingIn": "جاري تسجيل الدخول...",
+        "login": "تسجيل الدخول",
+        "register": "إنشاء حساب",
+        "registering": "جاري التسجيل...",
+        "backToLogin": "العودة لتسجيل الدخول",
+        "noData": "غير متوفر",
+        "appVersion": "إصدار التطبيق",
+        "logout": "تسجيل الخروج"
+    },
+    "favs": {
+        "add": "أضف للمفضلة",
+        "remove": "إزالة من المفضلة",
+        "addedSuccess": "تمت الإضافة إلى المفضلة",
+        "removedSuccess": "تمت الإزالة من المفضلة",
+        "removedOlder": "تمت إزالة المفضلات الأقدم: {{names}}"
+    },
+    "nav": {
+        "home": "الرئيسية",
+        "profile": "الملف"
+    },
+    "profile": {
+        "title": "ملفي",
+        "greeting": "عزيزي المستخدم",
+        "phone": "الهاتف",
+        "updateBasic": "تحديث المعلومات الأساسية",
+        "updatePassword": "تحديث كلمة المرور",
+        "lastLogin": "آخر تسجيل دخول",
+        "logout": "تسجيل الخروج",
+        "logoutSuccess": "تم تسجيل خروجك."
+    },
+    "eventUI": {
+        "viewOnTicketmaster": "عرض على Ticketmaster",
+        "notFound": "لم يتم العثور على الفعالية.",
+        "start": "البدء:",
+        "venue": "المكان:",
+        "category": "التصنيف:",
+        "price": "السعر:",
+        "postalCode": "الرمز البريدي:",
+        "description": "الوصف:",
+        "error": { "fetchFailed": "فشل في جلب الفعالية", "cannotOpenLink": "لا يمكن فتح رابط الفعالية على هذا الجهاز", "openFailed": "فشل في فتح الرابط" },
+        "showingFor": "عرض النتائج عن: {{keyword}}{{inCity}}"
+    }
+}

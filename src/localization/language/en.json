@@ -1,0 +1,81 @@
+{
+    "auth": {
+        "title": "Intro Screen",
+        "introText": "This is the intro text in english",
+        "login": "Login",
+        "signup": "Sign Up",
+        "name": "Name",
+        "emailAddress": "Email address",
+        "password": "password",
+        "sendReset": "Send Reset Link",
+        "sending": "Sending...",
+        "confirmPassword": "Confirm Password",
+        "continue": "Continue",
+        "createAccount": "Create an Account",
+        "forgotPassword": "Forgotten password?",
+        "alreadyHaveAccount": "Already have an account? Login"
+    },
+    "event": {
+        "title": "Event",
+        "details": "Event details",
+        "mapview": "Map view",
+        "search": "Search events"
+    },
+    "home": {
+        "title": "Home",
+        "searchHeading": "Search Events",
+        "keyword": { "label": "Keyword", "placeholder": "Keyword (e.g. Phoenix)" },
+        "city": { "label": "City", "placeholder": "Phoenix" },
+        "searchButton": "Search Events",
+        "favoritesHeading": "Favorite Events",
+        "clearAll": "Clear all",
+        "noFavorites": "No favorite events.",
+        "error": { "enterKeywordOrCity": "Please enter keyword or city to search", "enterKeywordRequired": "Please enter a keyword to search", "clearFailed": "Could not clear favorites" }
+    },
+    "common": {
+        "untitledEvent": "Untitled Event",
+        "added": "Added:",
+        "search": "Search",
+        "loggingIn": "Logging in...",
+        "login": "Login",
+        "register": "Register",
+        "registering": "Registering...",
+        "backToLogin": "Back to Login",
+        "noData": "N/A",
+        "appVersion": "App Version",
+        "logout": "Logout"
+    },
+    "favs": {
+        "add": "Add To Favourite",
+        "remove": "Remove Favourite",
+        "addedSuccess": "Added to favourites",
+        "removedSuccess": "Removed from favourites",
+        "removedOlder": "Removed older favorites: {{names}}"
+    },
+    "nav": {
+        "home": "Home",
+        "profile": "Profile"
+    },
+    "profile": {
+        "title": "My Profile",
+        "greeting": "Dear User",
+    "phone": "Phone",
+        "updateBasic": "Update Basic Info",
+        "updatePassword": "Update Password",
+        "lastLogin": "Last Login",
+        "logout": "Logout",
+        "logoutSuccess": "You have been logged out."
+    },
+    "eventUI": {
+        "viewOnTicketmaster": "View on Ticketmaster",
+        "notFound": "Event not found.",
+        "start": "Start:",
+        "venue": "Venue:",
+        "category": "Category:",
+        "price": "Price:",
+        "postalCode": "Postal Code:",
+        "description": "Description:",
+        "error": { "fetchFailed": "Failed to fetch event", "cannotOpenLink": "Cannot open the event link on this device", "openFailed": "Failed to open link" },
+        "showingFor": "Showing results for: {{keyword}}{{inCity}}"
+    }
+}

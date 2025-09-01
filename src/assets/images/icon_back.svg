@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6EAC5292-C8E6-4074-9712-FBEF7B8368D2@1x</title>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-Vehicle-Details" transform="translate(-28.000000, -42.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="ic_back" transform="translate(29.000000, 43.000000)">
+                <rect id="Rectangle" opacity="0.8" x="0" y="0" width="26" height="26" rx="13"></rect>
+                <line x1="9.5" y1="12.5" x2="15.5858237" y2="7.77705365" id="Line-Copy-4" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.500000, 10.000000) rotate(-4.000000) translate(-12.500000, -10.000000) "></line>
+                <line x1="9.5" y1="18.5" x2="15.5858237" y2="13.7770537" id="Line-Copy-5" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.500000, 16.000000) scale(1, -1) rotate(-4.000000) translate(-12.500000, -16.000000) "></line>
+            </g>
+        </g>
+    </g>
+</svg>
