@@ -49,12 +49,6 @@ const EventMapScreen = ({ route, navigation }: any) => {
             <CText.Generic style={styles.infoDesc}>{event._embedded.venues[0].name}</CText.Generic>
           ) : null}
         </CView>
-
-        {Platform.OS === 'android' && (
-          <View style={styles.hintBox}>
-            <Text style={styles.hintText}>Ensure Google Maps API key is set in AndroidManifest.xml</Text>
-          </View>
-        )}
       </View>
     </CContainer>
   );
@@ -99,8 +93,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.6)',
     padding: 8,
     borderRadius: 6,
-  },
-  hintText: { color: '#fff', fontSize: 12, textAlign: 'center' },
+  }
 });
 
 export default EventMapScreen;
