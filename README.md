@@ -1,6 +1,13 @@
 # CityPulse (Existing React Native project)
 
 This is an existing React Native project. Follow the steps below to set up the development environment and run the app locally.
+<p align="center">
+  <img src="/preview/login.png" alt="Login" width="120"/>
+  <img src="/preview/home.png" alt="Home" width="120"/>
+  <img src="/preview/event.png" alt="Event" width="120"/>
+  <img src="/preview/eventDetails.png" alt="Event Details" width="120"/>
+  <img src="/preview/eventMap.png" alt="Event in Map" width="120"/>
+</p>
 
 ## Prerequisites
 - Follow the official React Native environment setup first:
