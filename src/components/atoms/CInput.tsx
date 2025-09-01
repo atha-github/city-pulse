@@ -13,7 +13,7 @@ interface CInputProps extends TextInputProps {
 }
 
 const CInput: React.FC<CInputProps> = ({ label, error, containerStyle, inputStyle, secureToggle, ...props }) => {
-  const [secure, setSecure] = useState<boolean>(props.secureTextEntry ?? true);
+  const [secure, setSecure] = useState<boolean>(props.secureTextEntry ?? false);
 
   return (
     <View style={[styles.container, containerStyle]}>

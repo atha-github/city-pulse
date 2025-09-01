@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ImageBackground, View, ScrollView, TouchableOpacity, KeyboardAvoidingView, Platform } from 'react-native';
+import { ImageBackground, View, ScrollView, TouchableOpacity, KeyboardAvoidingView, Platform, I18nManager } from 'react-native';
 import apiManager from '../../data/index';
 import { setItem } from '../../utils/syncStorage';
 import CInput from '../../components/atoms/CInput';
@@ -97,9 +97,33 @@ const CreateAccountScreen = () => {
                   <CImage.appLogoImage style={{ width: CFont.s(60), height: CFont.s(60), borderRadius: CFont.s(30), alignSelf: 'center' }} resizeMode="contain" />
                 </View>
                 <CText.Title style={{ marginBottom: CFont.s(16), color: CColor.skyBlue700, fontSize: CFont.s(26), fontWeight: 'bold', textAlign: 'center' }}>{t('common.register')}</CText.Title>
-                <CInput placeholder={t('auth.emailAddress')} value={email} onChangeText={setEmail} autoCapitalize="none" keyboardType="email-address" style={{ marginBottom: CFont.s(12), color: CColor.gray, fontWeight: '500' }} inputStyle={{ color: CColor.gray, fontWeight: '500' }} />
-                <CInput placeholder={t('auth.password')} value={password} onChangeText={setPassword} secureToggle style={{ marginBottom: CFont.s(12), color: CColor.gray, fontWeight: '500' }} inputStyle={{ color: CColor.gray, fontWeight: '500' }} />
-                <CInput placeholder={t('auth.confirmPassword') || 'Confirm Password'} value={confirmPassword} onChangeText={setConfirmPassword} secureToggle style={{ marginBottom: CFont.s(12), color: CColor.gray, fontWeight: '500' }} inputStyle={{ color: CColor.gray, fontWeight: '500' }} />
+                <CInput 
+                placeholder={t('auth.emailAddress')} 
+                value={email} 
+                onChangeText={setEmail} 
+                autoCapitalize="none" 
+                keyboardType="email-address" 
+                style={{ marginBottom: CFont.s(12), color: CColor.gray, fontWeight: '500' }} 
+                inputStyle={{ color: CColor.gray, fontWeight: '500' }}  
+                />
+                <CInput 
+                placeholder={t('auth.password')} 
+                value={password} 
+                onChangeText={setPassword} 
+                secureToggle 
+                style={{ marginBottom: CFont.s(12), color: CColor.gray, fontWeight: '500' }} 
+                inputStyle={{ color: CColor.gray, fontWeight: '500' }} 
+                textAlign={I18nManager.isRTL ? 'right' : 'left'} 
+                />
+                <CInput 
+                placeholder={t('auth.confirmPassword') || 'Confirm Password'} 
+                value={confirmPassword} 
+                onChangeText={setConfirmPassword} 
+                secureToggle 
+                style={{ marginBottom: CFont.s(12), color: CColor.gray, fontWeight: '500' }} 
+                inputStyle={{ color: CColor.gray, fontWeight: '500' }} 
+                textAlign={I18nManager.isRTL ? 'right' : 'left'} 
+                />
                 <CButton
                   title={loading ? t('common.registering') : t('common.register')}
                   onPress={handleRegister}
