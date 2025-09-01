@@ -9,6 +9,9 @@ This is an existing React Native project. Follow the steps below to set up the d
   <img src="/preview/eventMap.png" alt="Event in Map" width="120"/>
   <img src="/preview/login_ar.png" alt="Login AR" width="120"/>
   <img src="/preview/signup_ar.png" alt="Signup AR" width="120"/>
+  <img src="/preview/login_ios.png" alt="Login iOS" width="120"/>
+  <img src="/preview/signup_ios.png" alt="Signup iOS" width="120"/>
+  <img src="/preview/home_ios.png" alt="Home iOS" width="120"/>
 </p>
 
 ## Prerequisites
