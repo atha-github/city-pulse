@@ -3,10 +3,13 @@
 This is an existing React Native project. Follow the steps below to set up the development environment and run the app locally.
 <p align="center">
   <img src="/preview/login.png" alt="Login" width="120"/>
+  <img src="/preview/signup.png" alt="Signup" width="120"/>
   <img src="/preview/home.png" alt="Home" width="120"/>
   <img src="/preview/event.png" alt="Event" width="120"/>
   <img src="/preview/eventDetails.png" alt="Event Details" width="120"/>
   <img src="/preview/eventMap.png" alt="Event in Map" width="120"/>
+  <img src="/preview/login_ar.png" alt="Login AR" width="120"/>
+  <img src="/preview/signup_ar.png" alt="Signup AR" width="120"/>
 </p>
 
 ## Prerequisites
