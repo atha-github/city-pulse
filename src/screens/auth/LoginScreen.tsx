@@ -56,7 +56,7 @@ const LoginScreen = () => {
   };
 
   return (
-    <CContainer isLoading={loading} style={{ backgroundColor: 'transparent' }}>
+    <CContainer isSafeArea={false} isLoading={loading} style={{ backgroundColor: 'transparent' }}>
       <ImageBackground
         source={CImage.appBanner}
         style={{ flex: 1, width: '100%', height: '100%' }}
@@ -91,14 +91,14 @@ const LoginScreen = () => {
               disabled={loading}
               style={{ width: '100%', marginBottom: CFont.s(12) }}
             />
-            <CView style={{ flexDirection: 'row', justifyContent: 'space-between', width: '100%', marginTop: CFont.s(8), marginBottom: CFont.s(8) }}>
+            <CView W100 style={{ flexDirection: 'row', justifyContent: 'space-between', marginTop: CFont.s(8), marginBottom: CFont.s(8) }}>
               <TouchableOpacity
                 activeOpacity={0.7}
                 onPress={() => CNavigator.navigate('ForgotPasswordScreen')}
                 style={{
                   backgroundColor: CColor.skyBlue50,
                   paddingVertical: CFont.s(8),
-                  paddingHorizontal: CFont.s(18),
+                  paddingHorizontal: CFont.s(15),
                   borderRadius: CFont.s(20),
                   shadowColor: CColor.black,
                   shadowOpacity: 0.08,
@@ -106,7 +106,7 @@ const LoginScreen = () => {
                   shadowRadius: 4,
                 }}
               >
-                <CText.Generic style={{ color: CColor.skyBlue700, fontWeight: 'bold', fontSize: CFont.s(15), textAlign: 'center' }}>
+                <CText.Generic style={{ color: CColor.skyBlue700, fontWeight: 'bold', fontSize: CFont.s(12), textAlign: 'center' }}>
                   {t('auth.forgotPassword')}
                 </CText.Generic>
               </TouchableOpacity>
@@ -116,7 +116,7 @@ const LoginScreen = () => {
                 style={{
                   backgroundColor: CColor.skyBlue50,
                   paddingVertical: CFont.s(8),
-                  paddingHorizontal: CFont.s(18),
+                  paddingHorizontal: CFont.s(15),
                   borderRadius: CFont.s(20),
                   shadowColor: CColor.black,
                   shadowOpacity: 0.08,
@@ -124,7 +124,7 @@ const LoginScreen = () => {
                   shadowRadius: 4,
                 }}
               >
-                <CText.Generic style={{ color: CColor.skyBlue700, fontWeight: 'bold', fontSize: CFont.s(15), textAlign: 'center' }}>
+                <CText.Generic style={{ color: CColor.skyBlue700, fontWeight: 'bold', fontSize: CFont.s(12), textAlign: 'center' }}>
                   {t('auth.createAccount')}
                 </CText.Generic>
               </TouchableOpacity>

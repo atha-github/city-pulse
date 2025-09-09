@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextInput, View, Text, StyleSheet, TextInputProps, TouchableOpacity } from 'react-native';
+import { TextInput, View, Text, StyleSheet, TextInputProps, TouchableOpacity, I18nManager } from 'react-native';
 import CColor from '../../utils/CColor';
 import CFont from '../../utils/CFont';
 import CImage from './CImage';
@@ -23,6 +23,7 @@ const CInput: React.FC<CInputProps> = ({ label, error, containerStyle, inputStyl
           style={[styles.input, inputStyle, secureToggle ? { paddingRight: 44 } : null, error ? styles.inputError : null]}
           placeholderTextColor={CColor.gray}
           secureTextEntry={secure}
+          textAlign={I18nManager.isRTL ? 'right' : 'left'}
           {...props}
         />
         {secureToggle && (

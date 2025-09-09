@@ -60,7 +60,7 @@ const CreateAccountScreen = () => {
   };
 
   return (
-    <CContainer isLoading={loading} style={{ backgroundColor: 'transparent' }}>
+    <CContainer isSafeArea={false} isLoading={loading} style={{ backgroundColor: 'transparent' }}>
       <ImageBackground
         source={CImage.appBanner}
         style={{ flex: 1, width: '100%', height: '100%' }}

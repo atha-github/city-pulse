@@ -48,6 +48,10 @@ const EventScreen = ({ navigation, route }: any) => {
       .searchEvents({ ...params, page: pageToFetch })
       .then((res: any) => {
         const items = res.data?.data || [];
+        //console.log(allIndexItem.length);
+
+        //const items = allIndexItem.filter((item, index) => index % 2 === 0);
+
         const pageMeta = res.data?.page || null;
 
         const prevCount = pageToFetch === 0 ? 0 : events.length;
@@ -135,8 +139,8 @@ const EventScreen = ({ navigation, route }: any) => {
               renderItem={renderItem}
               keyExtractor={(item: any, index: number) => item.id || item._id || index.toString()}
               contentContainerStyle={{ paddingBottom: CFont.s(20) }}
-              ListEmptyComponent={<CText.Generic>No events found.</CText.Generic>}
-              style={{ width: '100%' }}
+              ListEmptyComponent={<CText.Generic>{loading ? 'Loading...' : 'No events found.'}</CText.Generic>}
+              style={{ width: '100%', marginBottom: CFont.s(50) }}
               onEndReached={loadMore}
               onEndReachedThreshold={0.6}
               ListFooterComponent={loadingMore ? <CText.Generic>Loading more...</CText.Generic> : null}
